@@ -1,0 +1,28 @@
+{
+  com.badlogic.gdx.graphics.Color: {
+    dark-grey: { a: 1, b: 0.25, g: 0.25, r: 0.25 },
+    light-grey: { a: 1, b: 0.6, g: 0.6, r: 0.6 },
+    white: { a: 1, b: 1, g: 1, r: 1 },
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+    dark-grey-drawable: { name: plain, color: dark-grey }
+    light-grey-drawable: { name: plain, color: light-grey }
+    black-drawable: { name: plain, color: black }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    medium-description: { font: medium-bold-font, fontColor: black }
+    medium-text: { font: medium-bold-font, fontColor: black }
+    medium-warning: { font: medium-bold-font, fontColor: white }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+    big: { font: big-bold-font, fontColor: black, downFontColor: black, overFontColor: dark-grey }
+    huge: { font: huge-bold-font, fontColor: black, downFontColor: black, overFontColor: dark-grey }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+    medium: {
+      font: medium-text-font, fontColor: black, fontColor: black,
+      selection: light-grey-drawable, background: light-grey-drawable,
+      focusedBackground: dark-grey-drawable,
+    }
+  }
+}

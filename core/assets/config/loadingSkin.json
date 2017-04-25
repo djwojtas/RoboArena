@@ -1,0 +1,9 @@
+{
+  com.badlogic.gdx.graphics.Color: {
+    black: { a: 1, b: 0, g: 0, r: 0 },
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    huge-size: { font: huge-fancy-font, fontColor: black },
+    big-size: { font: big-fancy-font, fontColor: black }
+  },
+}
